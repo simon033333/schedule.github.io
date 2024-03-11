@@ -1,0 +1,87 @@
+/*NAME: SIMON JAY F. BELEN*/
+/*YEAR AND SECTION: BSINFO-2A*/
+/* CSS file for personalized course schedule */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+img{
+    border-radius: 100px;
+    box-shadow: 0 0 10px slategray;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 50px auto;
+    max-width: 80%;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.course1 {
+    background-color: orange; 
+    color: #333; 
+}
+.course2 {
+    background-color: lightblue; 
+    color: #333; 
+}
+.course3 {
+    background-color: lightsteelblue; 
+    color: #333; 
+}
+.course4 {
+    background-color: coral; 
+    color: #333; 
+}
+.course5 {
+    background-color: limegreen; 
+    color: #333; 
+}
+.course6 {
+    background-color: #ffd700; 
+    color: #333; 
+}
+.course7 {
+    background-color: salmon; 
+    color: #333; 
+}
+
+.lab {
+    font-style: italic;
+}
+
+
+a {
+    color: blue;
+}
+
+@media print {
+    body * {
+        color: black !important;
+        font-family: 'Times New Roman', Times, serif !important;
+    }
+
+    img {
+        filter: grayscale(100%);
+    }
+}
